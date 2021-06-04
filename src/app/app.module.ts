@@ -7,11 +7,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { registerLocaleData } from '@angular/common';
 import localeṔt from '@angular/common/locales/pt';
+import { HomebrokerComponent } from './homebroker/homebroker.component';
 registerLocaleData(localeṔt);
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomebrokerComponent
   ],
   imports: [
     BrowserModule,
